@@ -1,3 +1,5 @@
+#Улудшение структуры базы данных
+
 CREATE TABLE "public"."pereval_areas" (
     "id" int8 NOT NULL DEFAULT nextval('pereval_areas_id_seq'::regclass),
     "id_parent" int8 NOT NULL,
